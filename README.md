@@ -16,8 +16,16 @@ We get this data by finding the average time between orders and taking anywhere 
 - The Output of the prediction is either "0" (Not Churned), or "1" (Churned)
 - This is a Binary Classification Problem
 -----------------------------
-In the code, I have done a similar binary classification of churn with telecom data from DataCamp
+Since I could not find any data on Jewelry specifically, I have done a similar binary classification of churn with telecom data from DataCamp.
 
+# Results
+After comparing various models we find out that RandomForestClassfier has the best accuracy on the test set!
+
+However, 
+- Accuracy may not be the best method of evalauting the performance of classification models
+- The target variable wsa highly imbalanced as you see in the figures with "not churned" being higher than "Churned" which could highly influence the model
+- Recall and Precision would've been some additional metrics we could've used to evaluate the performance of the models.
+------------------------------
 # Links
-https://www.readyratios.com/sec/industry/5944/
-https://corporatefinanceinstitute.com/resources/accounting/inventory-turnover-ratio/
+- https://www.readyratios.com/sec/industry/5944/
+- https://corporatefinanceinstitute.com/resources/accounting/inventory-turnover-ratio/
